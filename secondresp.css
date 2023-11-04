@@ -1,0 +1,136 @@
+
+@media (width >= 768px){
+    .zemot{
+        position: relative;
+        background-image: url(assets/baro.png);
+        height: 550px;
+        background-repeat: no-repeat;
+        width: 768px;
+    }
+    .location{
+        top: 263px;
+        left: 45.5%;
+    }
+    .box2{
+        display: flex;
+        padding: 88px 0 0 39px;
+        height: 436px;
+    }
+    h1{
+        width: 223px;
+        margin-right: 68px;
+    }
+    footer{
+        display: flex;
+        width: 100%;
+        height: 216px;
+        padding: 56px 0 0 39px;
+    }
+    .them{
+        margin-left: 69px;
+        width: 281px;
+        height: 104px;
+        margin-top: 0;
+    }
+    .mag2{
+        margin-bottom: 105px;
+        flex-shrink: 0;
+    }
+    .ico{
+        margin-left: 133px;
+        margin-bottom: 125px;
+    }
+    .box{
+        margin-left: 39px;
+        display: flex;
+        flex-direction: row;
+        width: 264px;
+    }
+    .our{
+        width: 398px;
+    }
+}
+@media (width >= 1440px){
+    .box{
+        margin-left: 156px;
+    }
+    .location{
+        top: 263px;
+        left: 47.5%;
+    }
+    .zemot{
+        position: relative;
+        background-image: url(assets/rukadesk.png);
+        height: 550px;
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+    footer{
+        height: 244px;
+        padding: 80px 0 0 165px;
+    }
+    .them{
+        width: 430px;
+        margin-left: 140px;
+        color: var(--Almost-Black, #151515);
+        font-family: 'Outfit';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 28px; /* 155.556% */
+    }
+    .ico{
+        margin-left: 280px;
+    }
+    .box2{
+        padding: 104px 0 0 165px;
+        height: 548px;
+    }
+    h1{
+        width: 350px;
+        margin: 0 220px 48px 0;
+        color: var(--White, #FFF);
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: 'Big Shoulders Display';
+        font-size: 70px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 70px; /* 100% */
+        text-transform: uppercase;
+    }
+    .our{
+        width: 540px;
+        height: 128px;
+        color: var(--White, #FFF);
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: 'Outfit';
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 32px; /* 145.455% */
+    }
+    .new{
+        color: var(--White, #FFF);
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: 'Outfit';
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 32px; /* 145.455% */
+    }
+    h3{
+        color: var(--Gold, #D5966C);
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: 'Big Shoulders Display';
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 36px; /* 100% */
+        text-transform: uppercase;
+    }
+    .mag2{
+        width: 159.572px;
+        height: 58px;
+        flex-shrink: 0;
+    }
+}

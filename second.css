@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Big+Shoulders+Display:wght@800;900&family=DM+Serif+Display&family=Hanken+Grotesk:wght@500;700;800&family=Josefin+Sans:wght@300&family=Karla:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Outfit:wght@300&family=Plus+Jakarta+Sans:wght@500;700;800&family=Poppins:wght@300;400;600&family=Red+Hat+Display:wght@500;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.zemot{
+    position: relative;
+    background-image: url(assets/ruka.png);
+    height: 550px;
+    background-repeat: no-repeat;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box{
+    margin-right: 115px;
+    display: flex;
+    flex-direction: row;
+}
+button{
+    width: 204px;
+    height: 72px;
+    flex-shrink: 0;
+    background: var(--Almost-Black, #151515);
+    border: none;
+}
+a{
+    color: var(--White, #FFF);
+    font-family: 'Big Shoulders Display';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 3.636px;
+    text-decoration: none;
+}
+.location{
+    position: absolute;
+    top: 231px;
+    left: 41%;
+}
+.box2{
+    width: 100%;
+    height: 493px;
+    background: #151515;
+    padding-top: 48px;
+    padding-left: 16px;
+}
+footer{
+    width: 100%;
+    height: 336px;
+    background: var(--Gold, #D5966C);
+    padding-top: 48px;
+    padding-left: 32px;
+}
+h1{
+    width: 343px;
+    color: var(--White, #FFF);
+    font-family: 'Big Shoulders Display';
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 45px; /* 90% */
+    text-transform: uppercase;
+    margin-bottom: 48px;
+}
+h3{
+    color: var(--Gold, #D5966C);
+    font-family: 'Big Shoulders Display';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px; /* 100% */
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.new{
+    color: var(--White, #FFF);
+    font-family: 'Outfit';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px; /* 155.556% */
+    margin-bottom: 20px;
+}
+.our{
+    color: var(--White, #FFF);
+    font-family: 'Outfit';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px; /* 155.556% */
+    width: 343px;
+    height: 140px;
+}
+.them{
+    color: var(--Almost-Black, #151515);
+    font-family: 'Outfit';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 26px; /* 162.5% */
+    width: 311px;
+    height: 104px;
+    margin-top: 38px;
+    margin-bottom: 38px;
+}
+button:hover{
+    background: var(--Gold, #D5966C);
+}
+.secsec3{
+    display: none;
+}
